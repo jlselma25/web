@@ -5,6 +5,21 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 const galleryImages = [
   {
+    src: "/assets/torneoConcejal.jpg",
+    alt: "Torneo CDP Voleibol La Elite",
+    caption: "Torneo CDP Voleibol La Elite",
+  },
+  {
+    src: "/assets/torneoElite.jpeg",
+    alt: "Torneo CDP Voleibol La Elite",
+    caption: "Torneo CDP Voleibol La Elite",
+  },
+  {
+    src: "/assets/mesaTorneo.jpg",
+    alt: "Torneo CDP Voleibol La Elite",
+    caption: "Torneo CDP Voleibol La Elite",
+  },
+  {
     src: "/assets/imagen1.png",
     alt: "Partido de voleibol",
     caption: "Partido equipo de CV Jerez",
