@@ -14,25 +14,25 @@ export const HeroSection = () => {
     >
 
        {/* Banner Importante */}
-  <motion.div
-    initial={{ y: -80, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    transition={{ duration: 0.8, delay: 1 }}
-    className="absolute top-20  -translate-x-1/2 z-20"
-  >
-    <div className="bg-gradient-to-r from-yellow-500 to-orange-500 text-black px-6 py-3 rounded-full shadow-xl flex items-center gap-3">
-      <span className="text-sm sm:text-base font-bold uppercase tracking-wide">
-        🏐 ¡¡OJO QUE SE VIENE EL SORTEO CON PREMIO SEGURO!!
-      </span>
-     <Button
-        size="sm"
-        variant="secondary"
-        onClick={() => setIsInfoOpen(true)}
+      <motion.div
+        initial={{ y: -80, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 1 }}
+        className="absolute top-20  -translate-x-1/2 z-20"
       >
-        Más info
-      </Button>
-    </div>
-  </motion.div>
+        <div className="bg-gradient-to-r from-yellow-500 to-orange-500 text-black px-6 py-3 rounded-full shadow-xl flex items-center gap-3">
+          <span className="text-sm sm:text-base font-bold uppercase tracking-wide">
+            🏐 ¡¡OJO QUE SE VIENE EL SORTEO CON PREMIO SEGURO!!
+          </span>
+        <Button
+            size="sm"
+            variant="secondary"
+            onClick={() => setIsInfoOpen(true)}
+          >
+            Más info
+          </Button>
+        </div>
+      </motion.div>
 
 
       {/* Background Image */}
